@@ -1,6 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Hind|Open+Sans:400,400italic,300,700,700italic);
+*, :after, :before {
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #c6c6c6;
+  width: 75%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 body {
@@ -53,15 +66,19 @@ i, em {
   text-align: center;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .content {
-  width: 90%;
-  padding: 0 5%;
+  width: 100%;
+  padding: 25px 5%;
   margin: 0;
 }
 
 .content-flat {
   width: 100%;
-  padding: 0;
+  padding: 25px 0;
   margin: 0;
 }
 
@@ -72,10 +89,10 @@ i, em {
   width: 100%;
 }
 
-.col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-  background-color: #d4d4d4;
+.col-auto p, .col-1 p, .col-2 p, .col-3 p, .col-4 p, .col-5 p, .col-6 p, .col-7 p, .col-8 p, .col-9 p, .col-10 p, .col-11 p, .col-12 p {
+  background-color: #e6e6e6;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 5px 5px;
   margin: 5px;
 }
 
