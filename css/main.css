@@ -70,18 +70,6 @@ i, em {
   text-align: justify;
 }
 
-.content {
-  width: 100%;
-  padding: 25px 5%;
-  margin: 0;
-}
-
-.content-flat {
-  width: 100%;
-  padding: 25px 0;
-  margin: 0;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -146,4 +134,16 @@ i, em {
 
 .col-12 {
   flex: 0 0 100%;
+}
+
+.content {
+  width: 100%;
+  padding: 25px 5%;
+  margin: 0;
+}
+
+.content-flat {
+  width: 100%;
+  padding: 25px 0;
+  margin: 0;
 }
